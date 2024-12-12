@@ -1,0 +1,42 @@
+body{
+	background: url(фон.jpeg) no-repeat center center fixed; 
+	background-size: 100% 100%;
+	}
+   
+.shapka{
+	background: url(шапка.png) top no-repeat;
+	background-size: cover;
+	height: 500px;
+	width: 100%;
+	justify-content: space-between;	
+	gap: 10px;
+	padding: 10px;
+}
+   
+.plank{ 
+		background: url(плашка.webp) no-repeat center center fixed;
+		display: flex;
+		justify-content: space-between;	
+		gap: 10px;
+		padding: 10px;
+	 }
+	
+	 h1{
+	 	text-align: center; 
+		background:url(плашка.webp) no-repeat center center fixed; 
+		color:white;
+	 }
+	
+	 .rostok{
+		color: white;
+		text-align: center-left; 
+		font-size:25px; 
+		font-weight: bold;
+	 }
+.knopka{
+	
+	background-color: blue;
+	text-align:center;
+	 font-size: 25px; 
+	 color: white;
+}
